@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user.DESKTOP-4FF9D65\\source\\repos\\Laborator3-PSCC\\Laborator2-PSCC\\Laborator3-PSCC.csproj": {}
+    "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Laborator3-PSCC\\Laborator2-PSCC\\Laborator3-PSCC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user.DESKTOP-4FF9D65\\source\\repos\\Laborator3-PSCC\\Laborator2-PSCC\\Laborator3-PSCC.csproj": {
+    "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Laborator3-PSCC\\Laborator2-PSCC\\Laborator3-PSCC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user.DESKTOP-4FF9D65\\source\\repos\\Laborator3-PSCC\\Laborator2-PSCC\\Laborator3-PSCC.csproj",
+        "projectUniqueName": "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Laborator3-PSCC\\Laborator2-PSCC\\Laborator3-PSCC.csproj",
         "projectName": "Laborator3-PSCC",
-        "projectPath": "C:\\Users\\user.DESKTOP-4FF9D65\\source\\repos\\Laborator3-PSCC\\Laborator2-PSCC\\Laborator3-PSCC.csproj",
+        "projectPath": "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Laborator3-PSCC\\Laborator2-PSCC\\Laborator3-PSCC.csproj",
         "packagesPath": "C:\\Users\\user.DESKTOP-4FF9D65\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user.DESKTOP-4FF9D65\\source\\repos\\Laborator3-PSCC\\Laborator2-PSCC\\obj\\",
+        "outputPath": "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Laborator3-PSCC\\Laborator2-PSCC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user.DESKTOP-4FF9D65\\AppData\\Roaming\\NuGet\\NuGet.Config",
