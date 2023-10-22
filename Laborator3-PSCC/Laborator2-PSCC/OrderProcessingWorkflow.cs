@@ -6,21 +6,22 @@ using System.Text;
 using System.Threading.Tasks;
 using static Laborator2_PSCC.Domain.OrderProcessingEvent;
 using static Laborator2_PSCC.Domain.ShoppingCart;
+using static Laborator2_PSCC.ProductsOperation;
 
 namespace Laborator2_PSCC
 {
     public class OrderProcessingWorkflow
     {
-        public IOrderProcessingEvent Execute(ProcessOrderCommand command, Func<, bool> checkProductExists)
+        public IOrderProcessingEvent Execute(ProcessOrderCommand command, Func<Product, bool> checkProductExists)
         {
-            UnvalidatedProducts unvalidatedProducts = new UnvalidatedProducts(command.InputProducts);
+            UnvalidatedCart unvalidatedProducts = new UnvalidatedCart(command.InputProducts);
             IShoppingCart cart = ValidateProducts(checkProductExists, unvalidatedProducts);
             cart = ProcessCart(cart);
             return cart.Match(
-                    whenUnvalidatedCart: unvalidatedCart => new OrderProcessingFailedEvent("Unexpected unvalidated state") as IOrderProcessingEvent,
+                    whenEmptyCart: emptyCart => new OrderProcessingFailedEvent("Empty cart") as IOrderProcessingEvent,
+                    whenUnvalidatedCart: unvalidatedCart => new OrderProcessingFailedEvent("Unexpected unvalidated state"),
                     whenInvalidatedCart: invalidCart => new OrderProcessingFailedEvent(invalidCart.Reason),
                     whenValidatedCart: validatedCart => new OrderProcessingFailedEvent("Unexpected validated state"),
-                    whenCalculatedCart: calculatedCart => new OrderProcessingFailedEvent("Unexpected calculated state"),
                     whenPaidCart: publishedCart => new OrderProcessingSucceededEvent(publishedCart.Csv, publishedCart.PublishedDate)
                 );
         }

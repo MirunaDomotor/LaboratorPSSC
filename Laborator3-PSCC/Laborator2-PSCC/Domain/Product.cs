@@ -10,37 +10,52 @@ namespace Laborator2_PSCC.Domain
 {
     public record Product
     {
+        private static readonly Random random = new Random();
         private static readonly Regex ValidPatternCode = new("^[0-9]{6}$");
         public string? Code { get; set; }
+        public int Quantity { get; set; }
         public decimal Price { get; set; }
-        public Product(string code, decimal price)
+        public Product(string code, int quantity)
         {
             if (IsValidCode(code))
             {
                 Code = code;
             }
-            if(IsValidPrice(price))
+            if(IsValidQuantity(quantity))
             {
-                Price = price;
+                Quantity = quantity;
+                Price = random.Next(100) * Quantity;
             }
         }
         public override string ToString()
         {
-            return "Code=" + Code + " " + "Price=" + Price;
+            return "Code=" + Code + " " + "Quantity=" + Quantity +  "Price=" + Price;
         }
 
         private static bool IsValidCode(string stringValue) => ValidPatternCode.IsMatch(stringValue);
-        private static bool IsValidPrice(decimal numericPrice) => numericPrice > 0;
-        public static bool TryParsePrice(string priceString, out decimal price)
+        public static bool TryParseCode(string stringValue, out string? code)
         {
             bool isValid = false;
-            price = 0;
-            if (decimal.TryParse(priceString, out decimal numericPrice))
+            code = null;
+            if(IsValidCode(stringValue))
             {
-                if (IsValidPrice(numericPrice))
+                isValid = true;
+                code = new(stringValue);
+            }
+            return isValid;
+        }
+
+        private static bool IsValidQuantity(int numericQuantity) => numericQuantity > 0;
+        public static bool TryParseQuantity(string quantityString, out int quantity)
+        {
+            bool isValid = false;
+            quantity = 0;
+            if (int.TryParse(quantityString, out int numericQuantity))
+            {
+                if (IsValidQuantity(numericQuantity))
                 {
                     isValid = true;
-                    price = numericPrice;
+                    quantity = numericQuantity;
                 }
             }
             return isValid;

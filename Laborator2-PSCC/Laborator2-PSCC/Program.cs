@@ -62,7 +62,6 @@ namespace Laborator2_PSCC
             }
             Client client = new(clientName,clientAddress);
             var paymentMethod = ReadValue("Payment method (cash/card): ");
-            PaymentInfo paymentInfo = new(paymentMethod);
             Regex ValidPattern = new("^[0-9]{6}$");
             do
             {
@@ -71,18 +70,34 @@ namespace Laborator2_PSCC
                 {
                     break;
                 }
-               /* while (!(ValidPattern.IsMatch(codeProduct)))
+                var quantityProduct = ReadValue("Quantity of product: ");
+                int quantityProductInt = 0;
+                if (string.IsNullOrEmpty(codeProduct))
                 {
-                    Console.WriteLine("Invalid code! It must contain exactly 6 digits!");
-                    codeProduct = ReadValue("Please enter a correctly formatted code product: ");
+                    break;
                 }
-               */
-                quantityOfProducts++;
-                Product product = new Product(codeProduct);
+                if (!(int.TryParse(quantityProduct, out quantityProductInt)))
+                {
+                    break;
+                }
+                /* while (!(ValidPattern.IsMatch(codeProduct)))
+                 {
+                     Console.WriteLine("Invalid code! It must contain exactly 6 digits!");
+                     codeProduct = ReadValue("Please enter a correctly formatted code product: ");
+                 }
+                */
+                Product product = new Product(codeProduct, quantityProductInt);
                 listOfProducts.Add(new (product));
             } while (true);
+            decimal payAmount = 0;
+            foreach(var p in listOfProducts)
+            {
+                payAmount = payAmount + p.product.Price;
+
+            }
+            PaymentInfo paymentInfo = new(paymentMethod, payAmount);
             UnvalidatedCart shoppingCart = new UnvalidatedCart(listOfProducts);
-            Account account = new Account(client, shoppingCart, quantityOfProducts, paymentInfo);
+            Account account = new Account(client, shoppingCart, paymentInfo);
             return account;
         }
 
@@ -113,6 +128,7 @@ namespace Laborator2_PSCC
             if (ValidPattern1.IsMatch(paymentInfo.PaymentMethod) || ValidPattern2.IsMatch(paymentInfo.PaymentMethod))
             {
                 Console.WriteLine("The cart is paid!");
+                Console.WriteLine(paymentInfo.ToString());
                 return new PaidCart(new List<ValidatedProducts>(), paymentInfo);
             }
             else

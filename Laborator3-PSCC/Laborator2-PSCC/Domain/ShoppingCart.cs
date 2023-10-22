@@ -41,6 +41,17 @@ namespace Laborator2_PSCC.Domain
                 ProductsList = productsList;
             }
         }
+
+        public record CalculatedCart : IShoppingCart
+        {
+            internal CalculatedCart(IReadOnlyCollection<CalculatedCart> productsList)
+            {
+                ProductsList = productsList;
+            }
+
+            public IReadOnlyCollection<CalculatedCart> ProductsList { get; }
+        }
+
         public record PaidCart : IShoppingCart
         {
             public IReadOnlyCollection<ValidatedProducts> ProductsList { get; }

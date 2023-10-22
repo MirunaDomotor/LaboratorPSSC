@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Laborator2_PSCC.Domain
 {
-    public record UnvalidatedProducts(Product product)
+    public record UnvalidatedProducts(string Code, string Quantity, string Price)
     {
     }
 }

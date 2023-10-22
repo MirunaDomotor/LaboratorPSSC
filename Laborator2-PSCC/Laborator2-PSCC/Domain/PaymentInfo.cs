@@ -9,9 +9,11 @@ namespace Laborator2_PSCC.Domain
     public record PaymentInfo
     {
         public string PaymentMethod { get; set; }
-        public PaymentInfo(string method)
+        public decimal PayAmount { get; set; }
+        public PaymentInfo(string method, decimal payAmount)
         {
             PaymentMethod = method;
+            PayAmount = payAmount;
         }
     }
 }

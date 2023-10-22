@@ -12,13 +12,11 @@ namespace Laborator2_PSCC.Domain
         //public List<Product>? Products { get; set; }
         public Client? Client { get; set; }
         public IShoppingCart Cart { get; set; }
-        public decimal? Quantity { get; set; }
         public PaymentInfo PaymentInfo { get; set; }
-        public Account(Client client, IShoppingCart cart, int quantityOfProducts,PaymentInfo paymentInfo)
+        public Account(Client client, IShoppingCart cart, PaymentInfo paymentInfo)
         {
             Client = client;
             Cart = cart;
-            Quantity = quantityOfProducts;
             PaymentInfo = paymentInfo;
         }
 

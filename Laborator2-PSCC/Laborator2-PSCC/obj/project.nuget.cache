@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qXhoZhMoCVg49cNmFhYJAXcfvzOhyB7QTCnRqcMUvKDkQ2NOS19ym5lESLFQkHgatatnubMGtIq0TT9QNKO4ng==",
+  "dgSpecHash": "0zgQQZxX1ns+XOqp0BUX4dnGDsk/ItwhRRUBOsCEkESLkPfGgK1Nu1/bzvj2efwgBov1LAfuWj2aneH7mtK8HQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user.DESKTOP-4FF9D65\\source\\repos\\Laborator2-PSCC\\Laborator2-PSCC\\Laborator2-PSCC.csproj",
+  "projectFilePath": "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Laborator2-PSCC\\Laborator2-PSCC\\Laborator2-PSCC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user.DESKTOP-4FF9D65\\.nuget\\packages\\csharp.choices\\2.1.1\\csharp.choices.2.1.1.nupkg.sha512",
     "C:\\Users\\user.DESKTOP-4FF9D65\\.nuget\\packages\\csharp.choices.attributes\\2.1.1\\csharp.choices.attributes.2.1.1.nupkg.sha512",

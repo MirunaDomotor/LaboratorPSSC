@@ -1,4 +1,5 @@
 ﻿using Laborator2_PSCC.Domain;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -11,77 +12,68 @@ namespace Laborator2_PSCC
 {
     internal class ProductsOperation
     {
-        public static IShoppingCart ValidateExamGrades(Func<StudentRegistrationNumber, bool> checkProductExists, UnvalidatedCart products)
+        public static IShoppingCart ValidateProducts(Func<string, bool> checkProductExists, UnvalidatedCart products)
         {
             List<ValidatedProducts> validatedProducts = new();
             bool isValidList = true;
-            string invalidReson = string.Empty;
+            string invalidReason = string.Empty;
             foreach (var unvalidatedProduct in products.ProductsList)
             {
-                if (!Grade.TryParseGrade(unvalidatedGrade.ExamGrade, out Grade examGrade))
+                if(!Product.TryParseCode(unvalidatedProduct.Code, out string code)
+                           && checkProductExists(code))
                 {
-                    invalidReson = $"Invalid exam grade ({unvalidatedGrade.StudentRegistrationNumber}, {unvalidatedGrade.ExamGrade})";
+                    invalidReason = $"Invalid code product ({unvalidatedProduct.Code})";
                     isValidList = false;
                     break;
                 }
-                if (!Grade.TryParseGrade(unvalidatedGrade.ActivityGrade, out Grade activityGrade))
+                if(!Product.TryParseQuantity(unvalidatedProduct.Quantity, out int quantity))
                 {
-                    invalidReson = $"Invalid activity grade ({unvalidatedGrade.StudentRegistrationNumber}, {unvalidatedGrade.ActivityGrade})";
-                    isValidList = false;
+                    invalidReason = $"Invalid product ({unvalidatedProduct.Code},{unvalidatedProduct.Quantity})";   
+                    isValidList = false ;
                     break;
                 }
-                if (!StudentRegistrationNumber.TryParse(unvalidatedGrade.StudentRegistrationNumber, out StudentRegistrationNumber studentRegistrationNumber)
-                    && checkStudentExists(studentRegistrationNumber))
-                {
-                    invalidReson = $"Invalid student registration number ({unvalidatedGrade.StudentRegistrationNumber})";
-                    isValidList = false;
-                    break;
-                }
-                ValidatedStudentGrade validGrade = new(studentRegistrationNumber, examGrade, activityGrade);
-                validatedGrades.Add(validGrade);
+                ValidatedProducts validCart = new(code, quantity,unvalidatedProduct.Price);
+                validatedProducts.Add(validCart);
             }
 
             if (isValidList)
             {
-                return new ValidatedExamGrades(validatedGrades);
+                return new ValidatedCart(validatedProducts);
             }
             else
             {
-                return new InvalidatedExamGrades(examGrades.GradeList, invalidReson);
+                return new InvalidatedCart(products.ProductsList, invalidReason);
             }
 
         }
 
-        public static IShoppingCart CalculateFinalGrades(IShoppingCart examGrades) => examGrades.Match(
-            whenUnvalidatedExamGrades: unvalidaTedExam => unvalidaTedExam,
-            whenInvalidatedExamGrades: invalidExam => invalidExam,
-            whenCalculatedExamGrades: calculatedExam => calculatedExam,
-            whenPublishedExamGrades: publishedExam => publishedExam,
-            whenValidatedExamGrades: validExamGrades =>
+        public static IShoppingCart CalculateFinalPrice(IShoppingCart shoppingCart) => shoppingCart.Match(
+            whenEmptyCart: emptyCart => emptyCart,
+            whenUnvalidatedCart: unvalidCart => unvalidCart,
+            whenInvalidatedCart: invalidCart => invalidCart,
+            whenValidatedCart: validatedCart =>
             {
-                var calculatedGrade = validExamGrades.GradeList.Select(validGrade =>
-                                            new CalculatedSudentGrade(validGrade.StudentRegistrationNumber,
-                                                                      validGrade.ExamGrade,
-                                                                      validGrade.ActivityGrade,
-                                                                      validGrade.ExamGrade + validGrade.ActivityGrade));
-                return new CalculatedExamGrades(calculatedGrade.ToList().AsReadOnly());
+                var calculatedCart = validatedCart.ProductsList.Select(validProduct =>
+                                           new CalculatedProducts(validProduct, validProduct.Price));
+                return new CalculatedCart(calculatedCart.ToList().AsReadOnly());
             }
-        );
+            whenPaidCart: paidCart => paidCart
+        ); 
 
-        public static IShoppingCart PublishExamGrades(IShoppingCart examGrades) => examGrades.Match(
-            whenUnvalidatedExamGrades: unvalidaTedExam => unvalidaTedExam,
-            whenInvalidatedExamGrades: invalidExam => invalidExam,
-            whenValidatedExamGrades: validatedExam => validatedExam,
-            whenPublishedExamGrades: publishedExam => publishedExam,
-            whenCalculatedExamGrades: calculatedExam =>
+        public static IShoppingCart ProcessCart(IShoppingCart shoppingCart) => shoppingCart.Match(
+            whenEmptyCart: emptyCart => emptyCart,
+            whenUnvalidatedCart: unvalidatedCart => unvalidatedCart,
+            whenInvalidatedCart: invalidCart => invalidCart,
+            whenValidatedCart: validatedCart => validatedCart,
+            whenPaidCart: paidCart => paidCart,
+            whenCalculatedCart: calculatedCart => 
             {
                 StringBuilder csv = new();
-                calculatedExam.GradeList.Aggregate(csv, (export, grade) => export.AppendLine($"{grade.StudentRegistrationNumber.Value}, {grade.ExamGrade}, {grade.ActivityGrade}, , {grade.FinalGrade}"));
+                calculatedCart.ProductsList.Aggregate(csv, (export, product) => export.AppendLine($"{product.}, {grade.ExamGrade}, {grade.ActivityGrade}, , {grade.FinalGrade}"));
 
-                PublishedExamGrades publishedExamGrades = new(calculatedExam.GradeList, csv.ToString(), DateTime.Now);
+                PaidCart paidCart = new(calculatedCart.ProductsList, csv.ToString(), DateTime.Now);
 
-                return publishedExamGrades;
+                return paidCart;
             });
     }
-}
 }

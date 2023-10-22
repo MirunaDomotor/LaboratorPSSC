@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Laborator2_PSCC.Domain
 {
     [AsChoice]
-    internal class OrderProcessingEvent
+    public static partial class OrderProcessingEvent
     {
         public interface IOrderProcessingEvent { }
         public record OrderProcessingSucceededEvent : IOrderProcessingEvent
