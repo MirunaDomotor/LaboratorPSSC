@@ -1,0 +1,92 @@
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/lab3
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/lab3.deps.json
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/lab3.runtimeconfig.json
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/lab3.dll
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/lab3.pdb
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/CSharp.Choices.dll
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/CSharp.Choices.Attributes.dll
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/Microsoft.CodeAnalysis.dll
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.resources.dll
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.resources.dll
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.resources.dll
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/obj/Debug/net7.0/lab3.csproj.AssemblyReference.cache
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/obj/Debug/net7.0/lab3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/obj/Debug/net7.0/lab3.AssemblyInfoInputs.cache
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/obj/Debug/net7.0/lab3.AssemblyInfo.cs
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/obj/Debug/net7.0/lab3.csproj.CoreCompileInputs.cache
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/obj/Debug/net7.0/lab3.csproj.CopyComplete
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/obj/Debug/net7.0/lab3.dll
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/obj/Debug/net7.0/refint/lab3.dll
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/obj/Debug/net7.0/lab3.pdb
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/obj/Debug/net7.0/lab3.genruntimeconfig.cache
+/Users/alexandracuzea/Desktop/Anul 4/Sem 1/PSSC/lab3/lab3/obj/Debug/net7.0/ref/lab3.dll
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\lab3.exe
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\lab3.deps.json
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\lab3.runtimeconfig.json
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\lab3.dll
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\lab3.pdb
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\CSharp.Choices.dll
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\CSharp.Choices.Attributes.dll
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\obj\Debug\net7.0\lab3.csproj.AssemblyReference.cache
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\obj\Debug\net7.0\lab3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\obj\Debug\net7.0\lab3.AssemblyInfoInputs.cache
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\obj\Debug\net7.0\lab3.AssemblyInfo.cs
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\obj\Debug\net7.0\lab3.csproj.CoreCompileInputs.cache
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\obj\Debug\net7.0\lab3.csproj.CopyComplete
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\obj\Debug\net7.0\lab3.dll
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\obj\Debug\net7.0\refint\lab3.dll
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\obj\Debug\net7.0\lab3.pdb
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\obj\Debug\net7.0\lab3.genruntimeconfig.cache
+C:\Users\user.DESKTOP-4FF9D65\Desktop\lab3\lab3\lab3\obj\Debug\net7.0\ref\lab3.dll
