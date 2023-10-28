@@ -8,7 +8,7 @@ namespace Laborator3_PSCC.Domain
 {
     public class PayShoppingCartWorkflow
     {
-        public IOrderProcessingEvent Execute(ProcessOrderCommand command, Func<ProductCodeValidation, bool> checkProductExists, Func<ProductQuantityValidation, bool> checkIfEnoughStock)
+        public IOrderProcessingEvent Execute(ProcessOrderCommand command, Func<ProductCode, bool> checkProductExists, Func<ProductQuantity, bool> checkIfEnoughStock)
         {
             UnvalidatedShoppingCart unvalidatedCart = new UnvalidatedShoppingCart(command.InputShoppingCart);
             IShoppingCart cart = ValidateShoppingCart(checkProductExists, checkIfEnoughStock, unvalidatedCart);

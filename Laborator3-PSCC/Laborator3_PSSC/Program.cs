@@ -1,6 +1,7 @@
 ﻿using Laborator3_PSCC.Domain;
 using System;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
 using static Laborator3_PSCC.Domain.ShoppingCartChoice;
 using Laborator3_PSCC.Domain.Models;
 
@@ -8,18 +9,20 @@ namespace Laborator3_PSCC
 {
     class Program
     {
+        private static readonly Regex ValidPatternName = new("^[a-zA-Z]{4,20}$");
+        private static readonly Regex ValidPatternAddress = new("^[a-zA-Z][a-zA-Z0-9]*$");
         static void Main(string[] args)
         {
             var clientName = ReadValue("Client name: ");
-            while (string.IsNullOrEmpty(clientName))
+            while (string.IsNullOrEmpty(clientName) || !ValidPatternName.IsMatch(clientName))
             {
-                Console.WriteLine("Client name cannot be empty!");
+                Console.WriteLine("Client name is empty or wrongly formatted!");
                 clientName = ReadValue("Please enter client name: ");
             }
             var clientAddress = ReadValue("Client address: ");
-            while (string.IsNullOrEmpty(clientAddress))
+            while (string.IsNullOrEmpty(clientAddress) || !ValidPatternAddress.IsMatch(clientAddress))
             {
-                Console.WriteLine("Client address cannot be empty!");
+                Console.WriteLine("Client address is empty or wrongly formatted!!");
                 clientAddress = ReadValue("Please enter client address: ");
             }
             Client client = new(clientName,clientAddress);
@@ -32,8 +35,7 @@ namespace Laborator3_PSCC
 
             var listOfProducts = ReadListOfProducts().ToArray();
             ProcessOrderCommand command = new(listOfProducts);
-            PayShoppingCartWorkflow workflow = new PayShoppingCartWorkflow();
-
+            PayShoppingCartWorkflow workflow = new PayShoppingCartWorkflow(); 
             var result = workflow.Execute(command, (productCode) => true, (quantity) => true);
 
             result.Match(
@@ -54,7 +56,6 @@ namespace Laborator3_PSCC
         private static List<UnvalidatedProduct> ReadListOfProducts()
         {
             List<UnvalidatedProduct> listOfProducts = new();
-            string response;
             do
             {
                 var productCode = ReadValue("Code product (6 digits): ");
@@ -69,10 +70,8 @@ namespace Laborator3_PSCC
                     break;
                 }
 
-                int productQuantityInt = Int32.Parse(productQuantity);
-                listOfProducts.Add(new(productCode, productQuantityInt));
+                listOfProducts.Add(new(productCode, productQuantity));
             } while (true);
-
             return listOfProducts;
         }
 

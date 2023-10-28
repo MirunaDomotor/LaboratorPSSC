@@ -3,13 +3,13 @@ using System.Text.RegularExpressions;
 
 namespace Laborator3_PSCC.Domain.Models
 {
-	public class ProductCodeValidation
+	public record ProductCode
 	{
         private static readonly Regex ValidPattern = new("^[0-9]{6}$");
 
         public string Value { get; set; }
 
-		public ProductCodeValidation(string value)
+		public ProductCode(string value)
 		{
 			if (IsValid(value))
 			{
@@ -28,7 +28,7 @@ namespace Laborator3_PSCC.Domain.Models
             return Value;
         }
 
-        public static bool TryParse(string stringValue, out ProductCodeValidation? productCode )
+        public static bool TryParse(string stringValue, out ProductCode? productCode )
         {
             bool isValid = false;
             productCode = null;

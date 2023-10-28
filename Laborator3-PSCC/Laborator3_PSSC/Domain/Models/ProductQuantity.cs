@@ -4,14 +4,14 @@ using System.Text.RegularExpressions;
 
 namespace Laborator3_PSCC.Domain.Models
 {
-    public record ProductQuantityValidation
+    public record ProductQuantity
     {
         private static readonly Random random = new Random();
         public static int Stock = 12;
 
         public int Value { get; set; }
 
-        public ProductQuantityValidation(int value)
+        public ProductQuantity(int value)
         {
             if (IsValid(value))
             {
@@ -23,25 +23,25 @@ namespace Laborator3_PSCC.Domain.Models
             }
         }
 
-        public double CalculateTotalPrice()
+        public int ReturnQuantity()
         {
-            double price = random.Next(200) * random.NextDouble();
-            double totalPrice = System.Math.Round(Value * price, 2);
-            return totalPrice;
+            return Value;
         }
 
-        private static bool IsValid(int stringValue) => stringValue < Stock;
+        private static bool IsValid(int numericQuantity) => numericQuantity < Stock && numericQuantity > 0;
 
 
-        public static bool TryParse(int intValue, out ProductQuantityValidation? productQuantity)
+        public static bool TryParse(string valueString, out ProductQuantity? productQuantity)
         {
             bool isValid = false;
             productQuantity = null;
-
-            if (IsValid(intValue))
+            if(int.TryParse(valueString, out int numericQuantity))
             {
-                isValid = true;
-                productQuantity = new(intValue);
+                if (IsValid(numericQuantity))
+                {
+                    isValid = true;
+                    productQuantity = new(numericQuantity);
+                }
             }
 
             return isValid;

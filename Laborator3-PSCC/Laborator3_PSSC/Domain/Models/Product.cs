@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Laborator3_PSCC.Domain.Models;
+using Laborator3_PSSC.Domain.Models;
+using System;
 using System.Diagnostics;
 using System.Text.RegularExpressions;
 
@@ -8,24 +10,25 @@ namespace Laborator3_PSCC.Domain
 	{
         private static readonly Random random = new Random();
         private static readonly Regex ValidPatternCode = new("^[0-9]{6}$");
-        public string? Code { get; set; }
-        public int Quantity { get; set; }
-        public double Price { get; set; }
-        public Product(string code, int quantity)
+        public ProductCode Code { get; set; }
+        public ProductQuantity Quantity { get; set; }
+        public ProductPrice Price { get; set; }
+        public Product(ProductCode code, ProductQuantity quantity, ProductPrice price)
         {
-            if (IsValidCode(code))
-            {
-                Code = code;
-            }
-            if(IsValidQuantity(quantity))
-            {
-                Quantity = quantity;
-                Price = random.Next(200) * Quantity;
-            }
+            Code = code;
+            Quantity = quantity;
+            Price = price;
         }
         public override string ToString()
         {
             return "Code=" + Code + " " + "Quantity=" + Quantity +  "Price=" + Price;
+        }
+
+        public double CalculateTotalPrice()
+        {
+            double price = random.Next(200) * random.NextDouble();
+            double totalPrice = System.Math.Round(Quantity.ReturnQuantity() * Price.ReturnPrice(), 2);
+            return totalPrice;
         }
 
         private static bool IsValidCode(string stringValue) => ValidPatternCode.IsMatch(stringValue);
