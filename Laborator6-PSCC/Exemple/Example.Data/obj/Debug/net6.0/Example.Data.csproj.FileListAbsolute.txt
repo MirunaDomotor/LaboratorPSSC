@@ -1,0 +1,30 @@
+D:\FACULTA\AN 4\PSSC\Laborator-PSSC-main\Laborator-PSSC-main\Lucrarea-05\Exemple\Example.Data\bin\Debug\net6.0\Example.Data.deps.json
+D:\FACULTA\AN 4\PSSC\Laborator-PSSC-main\Laborator-PSSC-main\Lucrarea-05\Exemple\Example.Data\bin\Debug\net6.0\Example.Data.dll
+D:\FACULTA\AN 4\PSSC\Laborator-PSSC-main\Laborator-PSSC-main\Lucrarea-05\Exemple\Example.Data\bin\Debug\net6.0\Example.Data.pdb
+D:\FACULTA\AN 4\PSSC\Laborator-PSSC-main\Laborator-PSSC-main\Lucrarea-05\Exemple\Example.Data\bin\Debug\net6.0\Exemple.Domain.dll
+D:\FACULTA\AN 4\PSSC\Laborator-PSSC-main\Laborator-PSSC-main\Lucrarea-05\Exemple\Example.Data\bin\Debug\net6.0\Exemple.Domain.pdb
+D:\FACULTA\AN 4\PSSC\Laborator-PSSC-main\Laborator-PSSC-main\Lucrarea-05\Exemple\Example.Data\obj\Debug\net6.0\Example.Data.csproj.AssemblyReference.cache
+D:\FACULTA\AN 4\PSSC\Laborator-PSSC-main\Laborator-PSSC-main\Lucrarea-05\Exemple\Example.Data\obj\Debug\net6.0\Example.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\FACULTA\AN 4\PSSC\Laborator-PSSC-main\Laborator-PSSC-main\Lucrarea-05\Exemple\Example.Data\obj\Debug\net6.0\Example.Data.AssemblyInfoInputs.cache
+D:\FACULTA\AN 4\PSSC\Laborator-PSSC-main\Laborator-PSSC-main\Lucrarea-05\Exemple\Example.Data\obj\Debug\net6.0\Example.Data.AssemblyInfo.cs
+D:\FACULTA\AN 4\PSSC\Laborator-PSSC-main\Laborator-PSSC-main\Lucrarea-05\Exemple\Example.Data\obj\Debug\net6.0\Example.Data.csproj.CoreCompileInputs.cache
+D:\FACULTA\AN 4\PSSC\Laborator-PSSC-main\Laborator-PSSC-main\Lucrarea-05\Exemple\Example.Data\obj\Debug\net6.0\Example.Data.csproj.CopyComplete
+D:\FACULTA\AN 4\PSSC\Laborator-PSSC-main\Laborator-PSSC-main\Lucrarea-05\Exemple\Example.Data\obj\Debug\net6.0\Example.Data.dll
+D:\FACULTA\AN 4\PSSC\Laborator-PSSC-main\Laborator-PSSC-main\Lucrarea-05\Exemple\Example.Data\obj\Debug\net6.0\refint\Example.Data.dll
+D:\FACULTA\AN 4\PSSC\Laborator-PSSC-main\Laborator-PSSC-main\Lucrarea-05\Exemple\Example.Data\obj\Debug\net6.0\Example.Data.pdb
+D:\FACULTA\AN 4\PSSC\Laborator-PSSC-main\Laborator-PSSC-main\Lucrarea-05\Exemple\Example.Data\obj\Debug\net6.0\ref\Example.Data.dll
+C:\Users\user.DESKTOP-4FF9D65\Documents\GitHub\LaboratorPSSC\Lucrarea-05\Exemple\Example.Data\obj\Debug\net6.0\Example.Data.csproj.AssemblyReference.cache
+C:\Users\user.DESKTOP-4FF9D65\Documents\GitHub\LaboratorPSSC\Lucrarea-05\Exemple\Example.Data\obj\Debug\net6.0\Example.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user.DESKTOP-4FF9D65\Documents\GitHub\LaboratorPSSC\Lucrarea-05\Exemple\Example.Data\obj\Debug\net6.0\Example.Data.AssemblyInfoInputs.cache
+C:\Users\user.DESKTOP-4FF9D65\Documents\GitHub\LaboratorPSSC\Lucrarea-05\Exemple\Example.Data\obj\Debug\net6.0\Example.Data.AssemblyInfo.cs
+C:\Users\user.DESKTOP-4FF9D65\Documents\GitHub\LaboratorPSSC\Lucrarea-05\Exemple\Example.Data\obj\Debug\net6.0\Example.Data.csproj.CoreCompileInputs.cache
+C:\Users\user.DESKTOP-4FF9D65\Documents\GitHub\LaboratorPSSC\Lucrarea-05\Exemple\Example.Data\obj\Debug\net6.0\Example.Data.dll
+C:\Users\user.DESKTOP-4FF9D65\Documents\GitHub\LaboratorPSSC\Lucrarea-05\Exemple\Example.Data\obj\Debug\net6.0\refint\Example.Data.dll
+C:\Users\user.DESKTOP-4FF9D65\Documents\GitHub\LaboratorPSSC\Lucrarea-05\Exemple\Example.Data\obj\Debug\net6.0\Example.Data.pdb
+C:\Users\user.DESKTOP-4FF9D65\Documents\GitHub\LaboratorPSSC\Lucrarea-05\Exemple\Example.Data\bin\Debug\net6.0\Example.Data.deps.json
+C:\Users\user.DESKTOP-4FF9D65\Documents\GitHub\LaboratorPSSC\Lucrarea-05\Exemple\Example.Data\bin\Debug\net6.0\Example.Data.dll
+C:\Users\user.DESKTOP-4FF9D65\Documents\GitHub\LaboratorPSSC\Lucrarea-05\Exemple\Example.Data\bin\Debug\net6.0\Example.Data.pdb
+C:\Users\user.DESKTOP-4FF9D65\Documents\GitHub\LaboratorPSSC\Lucrarea-05\Exemple\Example.Data\bin\Debug\net6.0\Exemple.Domain.dll
+C:\Users\user.DESKTOP-4FF9D65\Documents\GitHub\LaboratorPSSC\Lucrarea-05\Exemple\Example.Data\bin\Debug\net6.0\Exemple.Domain.pdb
+C:\Users\user.DESKTOP-4FF9D65\Documents\GitHub\LaboratorPSSC\Lucrarea-05\Exemple\Example.Data\obj\Debug\net6.0\Example.Data.csproj.CopyComplete
+C:\Users\user.DESKTOP-4FF9D65\Documents\GitHub\LaboratorPSSC\Lucrarea-05\Exemple\Example.Data\obj\Debug\net6.0\ref\Example.Data.dll

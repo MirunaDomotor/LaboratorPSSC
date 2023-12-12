@@ -691,11 +691,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user.DESKTOP-4FF9D65\\Desktop\\PSCC try again\\Laborator3-PSCC\\Laborator3_PSSC\\Laborator3_PSSC.csproj",
+      "projectUniqueName": "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Laborator3-PSCC\\Laborator3_PSSC\\Laborator3_PSSC.csproj",
       "projectName": "Laborator3_PSSC",
-      "projectPath": "C:\\Users\\user.DESKTOP-4FF9D65\\Desktop\\PSCC try again\\Laborator3-PSCC\\Laborator3_PSSC\\Laborator3_PSSC.csproj",
+      "projectPath": "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Laborator3-PSCC\\Laborator3_PSSC\\Laborator3_PSSC.csproj",
       "packagesPath": "C:\\Users\\user.DESKTOP-4FF9D65\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user.DESKTOP-4FF9D65\\Desktop\\PSCC try again\\Laborator3-PSCC\\Laborator3_PSSC\\obj\\",
+      "outputPath": "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Laborator3-PSCC\\Laborator3_PSSC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user.DESKTOP-4FF9D65\\AppData\\Roaming\\NuGet\\NuGet.Config",

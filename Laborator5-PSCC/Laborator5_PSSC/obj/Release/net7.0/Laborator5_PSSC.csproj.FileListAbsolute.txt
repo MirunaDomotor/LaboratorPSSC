@@ -1,0 +1,5 @@
+C:\Users\user.DESKTOP-4FF9D65\Documents\GitHub\LaboratorPSSC\Laborator5-PSCC\Laborator5_PSSC\obj\Release\net7.0\Laborator5_PSSC.csproj.AssemblyReference.cache
+C:\Users\user.DESKTOP-4FF9D65\Documents\GitHub\LaboratorPSSC\Laborator5-PSCC\Laborator5_PSSC\obj\Release\net7.0\Laborator5_PSSC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user.DESKTOP-4FF9D65\Documents\GitHub\LaboratorPSSC\Laborator5-PSCC\Laborator5_PSSC\obj\Release\net7.0\Laborator5_PSSC.AssemblyInfoInputs.cache
+C:\Users\user.DESKTOP-4FF9D65\Documents\GitHub\LaboratorPSSC\Laborator5-PSCC\Laborator5_PSSC\obj\Release\net7.0\Laborator5_PSSC.AssemblyInfo.cs
+C:\Users\user.DESKTOP-4FF9D65\Documents\GitHub\LaboratorPSSC\Laborator5-PSCC\Laborator5_PSSC\obj\Release\net7.0\Laborator5_PSSC.csproj.CoreCompileInputs.cache

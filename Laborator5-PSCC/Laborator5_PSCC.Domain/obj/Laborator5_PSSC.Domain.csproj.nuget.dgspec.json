@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Laborator5-PSCC\\Laborator5_PSCC.Domain\\Laborator5_PSSC.Domain.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Laborator5-PSCC\\Laborator5_PSCC.Domain\\Laborator5_PSSC.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Laborator5-PSCC\\Laborator5_PSCC.Domain\\Laborator5_PSSC.Domain.csproj",
+        "projectName": "Laborator5_PSSC.Domain",
+        "projectPath": "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Laborator5-PSCC\\Laborator5_PSCC.Domain\\Laborator5_PSSC.Domain.csproj",
+        "packagesPath": "C:\\Users\\user.DESKTOP-4FF9D65\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Laborator5-PSCC\\Laborator5_PSCC.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user.DESKTOP-4FF9D65\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "CSharp.Choices": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "LanguageExt.Core": {
+              "target": "Package",
+              "version": "[4.4.7, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Linq": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

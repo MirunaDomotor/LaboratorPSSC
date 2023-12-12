@@ -1,0 +1,345 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Lucrarea-05\\Exemple\\Example.Accomodation.EventProcessor\\Example.Accomodation.EventProcessor.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Lucrarea-05\\Exemple\\Example.Accomodation.EventProcessor\\Example.Accomodation.EventProcessor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Lucrarea-05\\Exemple\\Example.Accomodation.EventProcessor\\Example.Accomodation.EventProcessor.csproj",
+        "projectName": "Example.Accomodation.EventProcessor",
+        "projectPath": "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Lucrarea-05\\Exemple\\Example.Accomodation.EventProcessor\\Example.Accomodation.EventProcessor.csproj",
+        "packagesPath": "C:\\Users\\user.DESKTOP-4FF9D65\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Lucrarea-05\\Exemple\\Example.Accomodation.EventProcessor\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user.DESKTOP-4FF9D65\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Lucrarea-05\\Exemple\\Example.Dto\\Example.Dto.csproj": {
+                "projectPath": "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Lucrarea-05\\Exemple\\Example.Dto\\Example.Dto.csproj"
+              },
+              "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Lucrarea-05\\Exemple\\Example.Events.ServiceBus\\Example.Events.ServiceBus.csproj": {
+                "projectPath": "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Lucrarea-05\\Exemple\\Example.Events.ServiceBus\\Example.Events.ServiceBus.csproj"
+              },
+              "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Lucrarea-05\\Exemple\\Exemple.Domain\\Exemple.Domain.csproj": {
+                "projectPath": "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Lucrarea-05\\Exemple\\Exemple.Domain\\Exemple.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Azure": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Lucrarea-05\\Exemple\\Example.Dto\\Example.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Lucrarea-05\\Exemple\\Example.Dto\\Example.Dto.csproj",
+        "projectName": "Example.Dto",
+        "projectPath": "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Lucrarea-05\\Exemple\\Example.Dto\\Example.Dto.csproj",
+        "packagesPath": "C:\\Users\\user.DESKTOP-4FF9D65\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Lucrarea-05\\Exemple\\Example.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user.DESKTOP-4FF9D65\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Lucrarea-05\\Exemple\\Example.Events.ServiceBus\\Example.Events.ServiceBus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Lucrarea-05\\Exemple\\Example.Events.ServiceBus\\Example.Events.ServiceBus.csproj",
+        "projectName": "Example.Events.ServiceBus",
+        "projectPath": "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Lucrarea-05\\Exemple\\Example.Events.ServiceBus\\Example.Events.ServiceBus.csproj",
+        "packagesPath": "C:\\Users\\user.DESKTOP-4FF9D65\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Lucrarea-05\\Exemple\\Example.Events.ServiceBus\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user.DESKTOP-4FF9D65\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Lucrarea-05\\Exemple\\Example.Events\\Example.Events.csproj": {
+                "projectPath": "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Lucrarea-05\\Exemple\\Example.Events\\Example.Events.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Azure.Messaging.ServiceBus": {
+              "target": "Package",
+              "version": "[7.5.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Lucrarea-05\\Exemple\\Example.Events\\Example.Events.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Lucrarea-05\\Exemple\\Example.Events\\Example.Events.csproj",
+        "projectName": "Example.Events",
+        "projectPath": "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Lucrarea-05\\Exemple\\Example.Events\\Example.Events.csproj",
+        "packagesPath": "C:\\Users\\user.DESKTOP-4FF9D65\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Lucrarea-05\\Exemple\\Example.Events\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user.DESKTOP-4FF9D65\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CloudNative.CloudEvents.SystemTextJson": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "LanguageExt.Core": {
+              "target": "Package",
+              "version": "[3.4.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Lucrarea-05\\Exemple\\Exemple.Domain\\Exemple.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Lucrarea-05\\Exemple\\Exemple.Domain\\Exemple.Domain.csproj",
+        "projectName": "Exemple.Domain",
+        "projectPath": "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Lucrarea-05\\Exemple\\Exemple.Domain\\Exemple.Domain.csproj",
+        "packagesPath": "C:\\Users\\user.DESKTOP-4FF9D65\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user.DESKTOP-4FF9D65\\Documents\\GitHub\\LaboratorPSSC\\Lucrarea-05\\Exemple\\Exemple.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user.DESKTOP-4FF9D65\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CSharp.Choices": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "LanguageExt.Core": {
+              "target": "Package",
+              "version": "[3.4.15, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
