@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Example.Accomodation.EventProcessor\Example.Accomodation.EventProcessor.csproj" />
+    <ProjectReference Include="..\Example.Data\Example.Data.csproj" />
+    <ProjectReference Include="..\Example.Dto\Example.Dto.csproj" />
+    <ProjectReference Include="..\Example.Events.ServiceBus\Example.Events.ServiceBus.csproj" />
+    <ProjectReference Include="..\Exemple.Domain\Exemple.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

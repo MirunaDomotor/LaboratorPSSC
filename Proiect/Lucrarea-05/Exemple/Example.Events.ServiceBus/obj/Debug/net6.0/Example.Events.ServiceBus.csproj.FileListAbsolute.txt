@@ -1,0 +1,17 @@
+D:\FACULTA\AN 4\PSSC\PSSC toate lab schimbare\Lucrarea-05\Exemple\Example.Events.ServiceBus\obj\Debug\net6.0\Example.Events.ServiceBus.csproj.AssemblyReference.cache
+D:\FACULTA\AN 4\PSSC\PSSC toate lab schimbare\Lucrarea-05\Exemple\Example.Events.ServiceBus\obj\Debug\net6.0\Example.Events.ServiceBus.GeneratedMSBuildEditorConfig.editorconfig
+D:\FACULTA\AN 4\PSSC\PSSC toate lab schimbare\Lucrarea-05\Exemple\Example.Events.ServiceBus\obj\Debug\net6.0\Example.Events.ServiceBus.AssemblyInfoInputs.cache
+D:\FACULTA\AN 4\PSSC\PSSC toate lab schimbare\Lucrarea-05\Exemple\Example.Events.ServiceBus\obj\Debug\net6.0\Example.Events.ServiceBus.AssemblyInfo.cs
+D:\FACULTA\AN 4\PSSC\PSSC toate lab schimbare\Lucrarea-05\Exemple\Example.Events.ServiceBus\obj\Debug\net6.0\Example.Events.ServiceBus.csproj.CoreCompileInputs.cache
+D:\FACULTA\AN 4\PSSC\PSSC toate lab schimbare\Lucrarea-05\Exemple\Example.Events.ServiceBus\bin\Debug\net6.0\Example.Events.ServiceBus.deps.json
+D:\FACULTA\AN 4\PSSC\PSSC toate lab schimbare\Lucrarea-05\Exemple\Example.Events.ServiceBus\bin\Debug\net6.0\Example.Events.ServiceBus.dll
+D:\FACULTA\AN 4\PSSC\PSSC toate lab schimbare\Lucrarea-05\Exemple\Example.Events.ServiceBus\bin\Debug\net6.0\Example.Events.ServiceBus.pdb
+D:\FACULTA\AN 4\PSSC\PSSC toate lab schimbare\Lucrarea-05\Exemple\Example.Events.ServiceBus\bin\Debug\net6.0\Example.Events.dll
+D:\FACULTA\AN 4\PSSC\PSSC toate lab schimbare\Lucrarea-05\Exemple\Example.Events.ServiceBus\bin\Debug\net6.0\Example.Events.pdb
+D:\FACULTA\AN 4\PSSC\PSSC toate lab schimbare\Lucrarea-05\Exemple\Example.Events.ServiceBus\obj\Debug\net6.0\Example.Events.ServiceBus.csproj.CopyComplete
+D:\FACULTA\AN 4\PSSC\PSSC toate lab schimbare\Lucrarea-05\Exemple\Example.Events.ServiceBus\obj\Debug\net6.0\Example.Events.ServiceBus.dll
+D:\FACULTA\AN 4\PSSC\PSSC toate lab schimbare\Lucrarea-05\Exemple\Example.Events.ServiceBus\obj\Debug\net6.0\refint\Example.Events.ServiceBus.dll
+D:\FACULTA\AN 4\PSSC\PSSC toate lab schimbare\Lucrarea-05\Exemple\Example.Events.ServiceBus\obj\Debug\net6.0\Example.Events.ServiceBus.pdb
+D:\FACULTA\AN 4\PSSC\PSSC toate lab schimbare\Lucrarea-05\Exemple\Example.Events.ServiceBus\obj\Debug\net6.0\ref\Example.Events.ServiceBus.dll
+D:\FACULTA\AN 4\PSSC\PSSC toate lab schimbare\Lucrarea-05\Exemple\Example.Events.ServiceBus\bin\Debug\net6.0\Exemple.Domain.dll
+D:\FACULTA\AN 4\PSSC\PSSC toate lab schimbare\Lucrarea-05\Exemple\Example.Events.ServiceBus\bin\Debug\net6.0\Exemple.Domain.pdb

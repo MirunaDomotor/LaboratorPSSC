@@ -1,0 +1,12 @@
+D:\FACULTA\AN 4\PSSC\PSSC toate lab schimbare\Lucrarea-05\Exemple\Example.Dto\obj\Debug\net6.0\Example.Dto.GeneratedMSBuildEditorConfig.editorconfig
+D:\FACULTA\AN 4\PSSC\PSSC toate lab schimbare\Lucrarea-05\Exemple\Example.Dto\obj\Debug\net6.0\Example.Dto.AssemblyInfoInputs.cache
+D:\FACULTA\AN 4\PSSC\PSSC toate lab schimbare\Lucrarea-05\Exemple\Example.Dto\obj\Debug\net6.0\Example.Dto.AssemblyInfo.cs
+D:\FACULTA\AN 4\PSSC\PSSC toate lab schimbare\Lucrarea-05\Exemple\Example.Dto\obj\Debug\net6.0\Example.Dto.csproj.CoreCompileInputs.cache
+D:\FACULTA\AN 4\PSSC\PSSC toate lab schimbare\Lucrarea-05\Exemple\Example.Dto\bin\Debug\net6.0\Example.Dto.deps.json
+D:\FACULTA\AN 4\PSSC\PSSC toate lab schimbare\Lucrarea-05\Exemple\Example.Dto\bin\Debug\net6.0\Example.Dto.dll
+D:\FACULTA\AN 4\PSSC\PSSC toate lab schimbare\Lucrarea-05\Exemple\Example.Dto\bin\Debug\net6.0\Example.Dto.pdb
+D:\FACULTA\AN 4\PSSC\PSSC toate lab schimbare\Lucrarea-05\Exemple\Example.Dto\obj\Debug\net6.0\Example.Dto.dll
+D:\FACULTA\AN 4\PSSC\PSSC toate lab schimbare\Lucrarea-05\Exemple\Example.Dto\obj\Debug\net6.0\refint\Example.Dto.dll
+D:\FACULTA\AN 4\PSSC\PSSC toate lab schimbare\Lucrarea-05\Exemple\Example.Dto\obj\Debug\net6.0\Example.Dto.pdb
+D:\FACULTA\AN 4\PSSC\PSSC toate lab schimbare\Lucrarea-05\Exemple\Example.Dto\obj\Debug\net6.0\ref\Example.Dto.dll
+D:\FACULTA\AN 4\PSSC\PSSC toate lab schimbare\Lucrarea-05\Exemple\Example.Dto\obj\Debug\net6.0\Example.Dto.csproj.AssemblyReference.cache

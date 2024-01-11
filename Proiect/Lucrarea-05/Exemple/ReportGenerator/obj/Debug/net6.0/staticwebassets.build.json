@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "6cdRMhwFHH+oVem2Vg8eVEgue/6ukQyxtk8Hb4MbliE=",
+  "Source": "Exemple.ReportGenerator",
+  "BasePath": "_content/Exemple.ReportGenerator",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Exemple.ReportGenerator\\wwwroot",
+      "Source": "Exemple.ReportGenerator",
+      "ContentRoot": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\ReportGenerator\\wwwroot\\",
+      "BasePath": "_content/Exemple.ReportGenerator",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\ReportGenerator\\wwwroot\\ReportView.html",
+      "SourceId": "Exemple.ReportGenerator",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\ReportGenerator\\wwwroot\\",
+      "BasePath": "_content/Exemple.ReportGenerator",
+      "RelativePath": "ReportView.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ReportView.html"
+    }
+  ]
+}

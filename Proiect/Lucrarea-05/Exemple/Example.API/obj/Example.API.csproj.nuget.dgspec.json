@@ -1,0 +1,508 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.API\\Example.API.csproj": {}
+  },
+  "projects": {
+    "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.Accomodation.EventProcessor\\Example.Accomodation.EventProcessor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.Accomodation.EventProcessor\\Example.Accomodation.EventProcessor.csproj",
+        "projectName": "Example.Accomodation.EventProcessor",
+        "projectPath": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.Accomodation.EventProcessor\\Example.Accomodation.EventProcessor.csproj",
+        "packagesPath": "C:\\Users\\user.DESKTOP-4FF9D65\\.nuget\\packages\\",
+        "outputPath": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.Accomodation.EventProcessor\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user.DESKTOP-4FF9D65\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.Dto\\Example.Dto.csproj": {
+                "projectPath": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.Dto\\Example.Dto.csproj"
+              },
+              "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.Events.ServiceBus\\Example.Events.ServiceBus.csproj": {
+                "projectPath": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.Events.ServiceBus\\Example.Events.ServiceBus.csproj"
+              },
+              "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Exemple.Domain\\Exemple.Domain.csproj": {
+                "projectPath": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Exemple.Domain\\Exemple.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Azure": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.API\\Example.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.API\\Example.API.csproj",
+        "projectName": "Example.API",
+        "projectPath": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.API\\Example.API.csproj",
+        "packagesPath": "C:\\Users\\user.DESKTOP-4FF9D65\\.nuget\\packages\\",
+        "outputPath": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user.DESKTOP-4FF9D65\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.Accomodation.EventProcessor\\Example.Accomodation.EventProcessor.csproj": {
+                "projectPath": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.Accomodation.EventProcessor\\Example.Accomodation.EventProcessor.csproj"
+              },
+              "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.Data\\Example.Data.csproj": {
+                "projectPath": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.Data\\Example.Data.csproj"
+              },
+              "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.Dto\\Example.Dto.csproj": {
+                "projectPath": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.Dto\\Example.Dto.csproj"
+              },
+              "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.Events.ServiceBus\\Example.Events.ServiceBus.csproj": {
+                "projectPath": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.Events.ServiceBus\\Example.Events.ServiceBus.csproj"
+              },
+              "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Exemple.Domain\\Exemple.Domain.csproj": {
+                "projectPath": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Exemple.Domain\\Exemple.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.Data\\Example.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.Data\\Example.Data.csproj",
+        "projectName": "Example.Data",
+        "projectPath": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.Data\\Example.Data.csproj",
+        "packagesPath": "C:\\Users\\user.DESKTOP-4FF9D65\\.nuget\\packages\\",
+        "outputPath": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user.DESKTOP-4FF9D65\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Exemple.Domain\\Exemple.Domain.csproj": {
+                "projectPath": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Exemple.Domain\\Exemple.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "LanguageExt.Core": {
+              "target": "Package",
+              "version": "[4.4.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.Dto\\Example.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.Dto\\Example.Dto.csproj",
+        "projectName": "Example.Dto",
+        "projectPath": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.Dto\\Example.Dto.csproj",
+        "packagesPath": "C:\\Users\\user.DESKTOP-4FF9D65\\.nuget\\packages\\",
+        "outputPath": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user.DESKTOP-4FF9D65\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.Events.ServiceBus\\Example.Events.ServiceBus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.Events.ServiceBus\\Example.Events.ServiceBus.csproj",
+        "projectName": "Example.Events.ServiceBus",
+        "projectPath": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.Events.ServiceBus\\Example.Events.ServiceBus.csproj",
+        "packagesPath": "C:\\Users\\user.DESKTOP-4FF9D65\\.nuget\\packages\\",
+        "outputPath": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.Events.ServiceBus\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user.DESKTOP-4FF9D65\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.Events\\Example.Events.csproj": {
+                "projectPath": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.Events\\Example.Events.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Azure.Messaging.ServiceBus": {
+              "target": "Package",
+              "version": "[7.5.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.Events\\Example.Events.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.Events\\Example.Events.csproj",
+        "projectName": "Example.Events",
+        "projectPath": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.Events\\Example.Events.csproj",
+        "packagesPath": "C:\\Users\\user.DESKTOP-4FF9D65\\.nuget\\packages\\",
+        "outputPath": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Example.Events\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user.DESKTOP-4FF9D65\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Exemple.Domain\\Exemple.Domain.csproj": {
+                "projectPath": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Exemple.Domain\\Exemple.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CloudNative.CloudEvents.SystemTextJson": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "LanguageExt.Core": {
+              "target": "Package",
+              "version": "[4.4.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Exemple.Domain\\Exemple.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Exemple.Domain\\Exemple.Domain.csproj",
+        "projectName": "Exemple.Domain",
+        "projectPath": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Exemple.Domain\\Exemple.Domain.csproj",
+        "packagesPath": "C:\\Users\\user.DESKTOP-4FF9D65\\.nuget\\packages\\",
+        "outputPath": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\Exemple.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user.DESKTOP-4FF9D65\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CSharp.Choices": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "LanguageExt.Core": {
+              "target": "Package",
+              "version": "[4.4.7, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

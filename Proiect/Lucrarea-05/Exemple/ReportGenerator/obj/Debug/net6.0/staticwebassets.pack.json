@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\FACULTA\\AN 4\\PSSC\\PSSC toate lab schimbare\\Lucrarea-05\\Exemple\\ReportGenerator\\wwwroot\\ReportView.html",
+      "PackagePath": "staticwebassets\\ReportView.html"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Exemple.ReportGenerator.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Exemple.ReportGenerator.props",
+      "PackagePath": "build\\Exemple.ReportGenerator.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Exemple.ReportGenerator.props",
+      "PackagePath": "buildMultiTargeting\\Exemple.ReportGenerator.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Exemple.ReportGenerator.props",
+      "PackagePath": "buildTransitive\\Exemple.ReportGenerator.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
